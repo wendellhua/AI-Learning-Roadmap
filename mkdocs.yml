@@ -1,0 +1,61 @@
+site_name: AI Learning Roadmap
+site_description: A comprehensive guide to AI, from basics to agents.
+site_author: AI Assistant
+repo_url: https://github.com/your-username/AI-Learning-Roadmap
+repo_name: AI-Learning-Roadmap
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Configuration
+docs_dir: .
+site_dir: site
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - attr_list
+
+# Customization
+extra_javascript:
+  - js/tts.js
+
+extra_css:
+  - css/tts.css
+
+# Exclude files from the documentation build
+exclude_docs:
+  - requirements.txt
+  - ".*"
+  - "**/_*"
