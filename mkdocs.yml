@@ -54,6 +54,7 @@ nav:
     - Emergent Abilities | 涌现能力: 02_LLM_Core_Concepts/03_Emergent_Abilities_and_Intelligence.md
     - Model Selection | 模型选择: 02_LLM_Core_Concepts/03_Model_Selection_Strategy.md
     - How Machines Learn | 机器学习原理: 02_LLM_Core_Concepts/04_How_Machines_Learn.md
+    - World Models | 世界模型: 02_LLM_Core_Concepts/05_World_Models_Deep_Dive.md
   - 💻 Local Deployment | 本地部署:
     - Overview | 概览: 03_Local_Deployment_and_Quantization/index.md
     - Ollama GPU Acceleration | Ollama加速: 03_Local_Deployment_and_Quantization/01_Ollama_GPU_Acceleration.md
@@ -83,16 +84,17 @@ nav:
   - 🚀 Future Trends | 未来趋势:
     - Overview | 概览: 08_Future_Trends/index.md
     - Future Overview | 趋势概览: 08_Future_Trends/01_Future_Trends_Overview.md
+    - Embodied AI | 具身智能: 08_Future_Trends/02_Embodied_AI_Deep_Dive.md
   - 📚 Resources | 资源库:
     - Overview | 概览: 09_Best_Resources/index.md
     - Top GitHub Repos | GitHub精选: 09_Best_Resources/01_Top_GitHub_Repositories.md
   - 🎯 AI Applications | AI应用学习:
-    - Overview | 概览: 10_AI_Application_Learning/index.md
-    - Domain Expert Prompts | 领域专家提示词: 10_AI_Application_Learning/01_Domain_Expert_Prompts.md
-    - AI Coding Mastery | AI编程专家之路: 10_AI_Application_Learning/02_AI_Coding_Mastery.md
-    - AI for Research | AI做技术研究: 10_AI_Application_Learning/03_AI_Technical_Research.md
-    - AI Children Education | AI儿童教育: 10_AI_Application_Learning/04_AI_Children_Education.md
-    - AI-Native Learner | AI原生学习者: 10_AI_Application_Learning/05_AI_Native_Learner.md
+    - Overview | 概览: 10_AI_Applications_Learning/index.md
+    - Domain Expert Prompts | 领域专家提示词: 10_AI_Applications_Learning/01_Domain_Expert_Prompts.md
+    - AI Coding Mastery | AI编程专家之路: 10_AI_Applications_Learning/02_AI_Coding_Mastery.md
+    - AI for Research | AI做技术研究: 10_AI_Applications_Learning/03_AI_Technical_Research.md
+    - AI Children Education | AI儿童教育: 10_AI_Applications_Learning/04_AI_Children_Education.md
+    - AI-Native Learner | AI原生学习者: 10_AI_Applications_Learning/05_AI_Native_Learner.md
 
 # Extensions
 markdown_extensions:
