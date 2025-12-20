@@ -1,8 +1,9 @@
-site_name: AI Learning Roadmap
-site_description: A comprehensive guide to AI, from basics to agents.
-site_author: AI Assistant
-repo_url: https://github.com/your-username/AI-Learning-Roadmap
-repo_name: AI-Learning-Roadmap
+site_name: AI Learning Roadmap | AI学习路线图
+site_description: A comprehensive guide to AI, from basics to agents. 从零基础到AI智能体的完整学习指南。
+site_author: AI Learning Community
+site_url: https://wendellhua.github.io/AI-Learning-Roadmap/
+repo_url: https://github.com/wendellhua/AI-Learning-Roadmap
+repo_name: wendellhua/AI-Learning-Roadmap
 
 theme:
   name: material
@@ -17,6 +18,7 @@ theme:
     - toc.follow
     - search.suggest
     - search.highlight
+    - content.code.copy
   palette:
     - scheme: default
       primary: indigo
@@ -30,22 +32,82 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
 
-# Configuration
+# Documentation directory
 docs_dir: .
 site_dir: site
+
+# Navigation
+nav:
+  - 🏠 Home | 首页: README.md
+  - 📐 Prerequisites | 预备知识:
+    - Mathematics for AI | AI数学基础: 00_Prerequisites/01_Mathematics_for_AI.md
+    - ML/DL Fundamentals | 机器学习基础: 00_Prerequisites/02_ML_DL_Fundamentals.md
+  - 🔧 AI Hardware | AI硬件:
+    - Global AI Hardware | 全球AI硬件: 01_AI_Foundations_and_Hardware/01_Global_AI_Hardware_Landscape.md
+    - Hardware Selection | 硬件选购: 01_AI_Foundations_and_Hardware/02_Hardware_Selection_Guide.md
+  - 🧠 LLM Core | 大模型核心:
+    - Transformer Architecture | Transformer架构: 02_LLM_Core_Concepts/00_Transformer_Architecture_Deep_Dive.md
+    - Mainstream Models | 主流模型: 02_LLM_Core_Concepts/01_Mainstream_Models_Overview.md
+    - Deep Dive Models | 模型深度解析: 02_LLM_Core_Concepts/02_Deep_Dive_Models.md
+    - Emergent Abilities | 涌现能力: 02_LLM_Core_Concepts/03_Emergent_Abilities_and_Intelligence.md
+    - Model Selection | 模型选择: 02_LLM_Core_Concepts/03_Model_Selection_Strategy.md
+    - How Machines Learn | 机器学习原理: 02_LLM_Core_Concepts/04_How_Machines_Learn.md
+  - 💻 Local Deployment | 本地部署:
+    - Ollama GPU Acceleration | Ollama加速: 03_Local_Deployment_and_Quantization/01_Ollama_GPU_Acceleration.md
+    - Model Quantization | 模型量化: 03_Local_Deployment_and_Quantization/02_Model_Quantization_Guide.md
+    - Local Model Evaluation | 本地评估: 03_Local_Deployment_and_Quantization/03_Local_Model_Evaluation.md
+  - ✍️ Prompt Engineering | 提示工程:
+    - System Prompts | 系统提示词: 04_Prompt_Engineering/01_System_Prompts_Analysis.md
+    - Best Practices | 最佳实践: 04_Prompt_Engineering/02_Prompt_Engineering_Best_Practices.md
+    - Advanced Techniques | 高级技巧: 04_Prompt_Engineering/03_Advanced_Prompting_Techniques.md
+    - AI for Research | AI做研究: 04_Prompt_Engineering/04_AI_for_Research.md
+  - 🔍 RAG & Fine-tuning | RAG与微调:
+    - RAG Fundamentals | RAG基础: 05_RAG_and_Fine_tuning/01_RAG_Fundamentals.md
+    - Advanced RAG | 高级RAG: 05_RAG_and_Fine_tuning/02_Advanced_RAG_Techniques.md
+    - Fine-tuning Guide | 微调指南: 05_RAG_and_Fine_tuning/03_Fine_tuning_Guide.md
+  - 🤖 AI Agents | AI智能体:
+    - Agent Frameworks | Agent框架: 06_AI_Agent_Development/01_Agent_Frameworks_Comparison.md
+    - Web Automation | 网页自动化: 06_AI_Agent_Development/02_Web_Automation_Agent_ByteBot.md
+    - Game AI Agent | 游戏AI: 06_AI_Agent_Development/03_Game_AI_Agent_G_Agent.md
+    - AI Native Workflow | AI原生工作流: 06_AI_Agent_Development/04_AI_Native_Workflow.md
+  - 🛡️ AI Safety | AI安全:
+    - Safety and Alignment | 安全与对齐: 07_AI_Ethics_and_Safety/01_AI_Safety_and_Alignment.md
+    - Prompt Injection | 提示注入: 07_AI_Ethics_and_Safety/02_Prompt_Injection_and_Defense.md
+  - 🚀 Future Trends | 未来趋势:
+    - Future Overview | 趋势概览: 08_Future_Trends/01_Future_Trends_Overview.md
+  - 📚 Resources | 资源库:
+    - Top GitHub Repos | GitHub精选: 09_Best_Resources/01_Top_GitHub_Repositories.md
 
 # Extensions
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
   - tables
   - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search:
+      lang:
+        - en
+        - zh
 
 # Customization
 extra_javascript:
@@ -54,8 +116,7 @@ extra_javascript:
 extra_css:
   - css/tts.css
 
-# Exclude files from the documentation build
-exclude_docs:
-  - requirements.txt
-  - ".*"
-  - "**/_*"
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/wendellhua/AI-Learning-Roadmap
