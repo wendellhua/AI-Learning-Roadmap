@@ -29,15 +29,15 @@ From static images to dynamic worlds.
 
 ## 3. Embodied AI (Robotics) | 具身智能
 
-Putting the "Brain" (LLM) into a "Body" (Robot).
-将“大脑”（LLM）放入“身体”（机器人）。
+Putting the "Brain" (LLM) into a "Body" (Robot). See the [Deep Dive](./02_Embodied_AI_Deep_Dive.md) for more details.
+将“大脑”（LLM）放入“身体”（机器人）。更多详情请参阅 [深度解析](./02_Embodied_AI_Deep_Dive.md)。
 
 - **Concept**: Traditional robots are hard-coded. Embodied AI uses VLM to "see" the environment and plan actions.
   <br> **概念**：传统机器人是硬编码的。具身智能利用 VLM“看”环境并规划动作。
-- **Example**: Figure 01 (powered by OpenAI), Tesla Optimus.
-  <br> **示例**：Figure 01, 特斯拉 Optimus。
-- **Future**: General Purpose Humanoid Robots.
-  <br> **未来**：通用人形机器人。
+- **Example**: Figure 02 (OpenAI), Tesla Optimus Gen 2, Unitree G1.
+  <br> **示例**：Figure 02 (OpenAI), 特斯拉 Optimus Gen 2, 宇树 G1。
+- **Future**: General Purpose Humanoid Robots in homes and factories.
+  <br> **未来**：家庭和工厂中的通用人形机器人。
 
 ## 4. Small Language Models (SLMs) | 小语言模型
 

@@ -74,6 +74,15 @@ Unveiling the essence of machine learning:
 - 📉 **Role of loss functions | 损失函数的作用**
 - 🔄 **The magic of backpropagation | 反向传播的魔法**
 
+### 7️⃣ [World Models Deep Dive | 世界模型深度解析](05_World_Models_Deep_Dive.md)
+
+Understanding the next generation of AI:
+理解下一代 AI：
+
+- 🌍 **Video as World Simulation | 视频即世界模拟**
+- 🧠 **JePA Architecture | JePA 架构**
+- 🔮 **Predicting the future | 预测未来**
+
 ---
 
 ## 🎮 Model Capability Comparison | 模型能力对比
@@ -81,14 +90,14 @@ Unveiling the essence of machine learning:
 | Model | Parameters | Features | Suitable Scenarios |
 |-------|------------|----------|-------------------|
 | 模型 | 参数量 | 特点 | 适合场景 |
-| GPT-4 | ~1.8T | Strongest overall | Complex reasoning |
-| GPT-4 | ~1.8T | 最强综合能力 | 复杂推理 |
-| Claude 3 | Unknown | Long text processing | Document analysis |
-| Claude 3 | 未知 | 长文本处理 | 文档分析 |
-| Llama 3 | 8B-70B | Open source, deployable | Local deployment |
-| Llama 3 | 8B-70B | 开源可部署 | 本地运行 |
-| Qwen 2 | 0.5B-72B | Chinese optimized | Chinese tasks |
-| Qwen 2 | 0.5B-72B | 中文优化 | 中文任务 |
+| GPT-4o | Unknown | Fast, Multimodal | Real-time interaction |
+| GPT-4o | 未知 | 快速、多模态 | 实时交互 |
+| Claude 3.5 | Unknown | Coding, Reasoning | Development & Analysis |
+| Claude 3.5 | 未知 | 编程、推理 | 开发与分析 |
+| Llama 3.2 | 1B-90B | Open, Multimodal | Edge & Vision tasks |
+| Llama 3.2 | 1B-90B | 开放、多模态 | 边缘与视觉任务 |
+| DeepSeek V3 | 671B (MoE) | Cost-effective, Math/Code | Scientific Research |
+| DeepSeek V3 | 671B (MoE) | 高性价比、数学/编程 | 科学研究 |
 
 ---
 
@@ -97,9 +106,10 @@ Unveiling the essence of machine learning:
 - Transformer Architecture | Transformer架构：3-4 hours | 小时
 - Model Overview | 模型概览：2 hours | 小时
 - Deep Analysis | 深度解析：2-3 hours | 小时
+- World Models | 世界模型：1-2 hours | 小时
 - Other Chapters | 其他章节：1-2 hours each | 各1-2 小时
 
-**Total | 总计**：About 10-15 hours | 约 10-15 小时
+**Total | 总计**：About 12-17 hours | 约 12-17 小时
 
 ---
 

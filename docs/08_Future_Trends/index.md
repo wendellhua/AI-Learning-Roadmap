@@ -44,8 +44,16 @@ AI的发展方向：
 #### 🧠 Technology Trends | 技术趋势
 - **Multimodal Fusion | 多模态融合** - Text + Image + Video + Audio | 文字+图片+视频+语音
 - **Agent Ecosystem | Agent生态** - Autonomous task execution | 自主任务执行
-- **Embodied Intelligence | 具身智能** - AI entering the physical world | AI进入物理世界
 - **Edge AI | 端侧AI** - Large models on phones | 手机上的大模型
+
+### 2️⃣ [Embodied AI Deep Dive | 具身智能深度解析](02_Embodied_AI_Deep_Dive.md)
+
+From Digital Intelligence to Physical Reality:
+从数字智能到物理现实：
+
+- 🤖 **The Brain & The Body | 大脑与身体**
+- 🧠 **VLA Models | VLA 模型**
+- 🏭 **Humanoid Robots | 人形机器人**
 
 #### 💼 Application Trends | 应用趋势
 - **AI Programming | AI编程** - Automatic code generation | 代码自动生成
@@ -113,9 +121,10 @@ Healthcare | 医疗:  [██████████░░░░░░░░░
 ## ⏱️ Estimated Study Time | 预计学习时间
 
 - Trends Overview | 趋势概览：1-2 hours | 小时
+- Embodied AI | 具身智能：1-2 hours | 小时
 - Deep Thinking | 深度思考：Continuous attention | 持续关注
 
-**Total | 总计**：About 1-2 hours + continuous learning | 约 1-2 小时 + 持续学习
+**Total | 总计**：About 3-4 hours + continuous learning | 约 3-4 小时 + 持续学习
 
 ---
 
