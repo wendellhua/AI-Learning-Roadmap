@@ -35,13 +35,9 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-# Documentation directory
-docs_dir: .
-site_dir: site
-
 # Navigation
 nav:
-  - 🏠 Home | 首页: README.md
+  - 🏠 Home | 首页: index.md
   - 📐 Prerequisites | 预备知识:
     - Mathematics for AI | AI数学基础: 00_Prerequisites/01_Mathematics_for_AI.md
     - ML/DL Fundamentals | 机器学习基础: 00_Prerequisites/02_ML_DL_Fundamentals.md
