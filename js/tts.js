@@ -36,15 +36,43 @@ document.addEventListener("DOMContentLoaded", function() {
             var content = document.querySelector(".md-content__inner");
             if (!content) return;
 
-            // Clean up text: remove code blocks if they are too long? 
-            // For now, just read everything. The browser might skip some hidden elements.
-            var text = content.innerText;
+            // Clean up text: remove icons and emojis
+            var text = getCleanText(content);
 
             if (text.trim().length === 0) return;
 
             speak(text);
         }
     });
+
+    function getCleanText(element) {
+        // Clone the element to avoid modifying the actual DOM
+        var clone = element.cloneNode(true);
+
+        // Remove known icon classes (MkDocs Material uses .twemoji, FontAwesome, etc.)
+        // Also remove permalinks and copy buttons
+        var selectorsToRemove = [
+            '.twemoji', 
+            '.icon', 
+            '.fa', '.fas', '.far', '.fab', 
+            '.headerlink', 
+            '.md-clipboard'
+        ];
+        
+        var elementsToRemove = clone.querySelectorAll(selectorsToRemove.join(','));
+        elementsToRemove.forEach(function(el) {
+            el.remove();
+        });
+
+        var text = clone.innerText;
+
+        // Regex to remove Unicode emojis and symbols
+        var emojiRegex = /[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F700}-\u{1F77F}\u{1F780}-\u{1F7FF}\u{1F800}-\u{1F8FF}\u{1F900}-\u{1F9FF}\u{1FA00}-\u{1FA6F}\u{1FA70}-\u{1FAFF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{2300}-\u{23FF}]/gu;
+        
+        text = text.replace(emojiRegex, '');
+
+        return text;
+    }
 
     function speak(text) {
         // Cancel any current speech
