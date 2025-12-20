@@ -50,6 +50,9 @@ Prompt: "This code throws IndexError, please fix it"
 [粘贴你的代码]
 ```
 
+> 🔗 **See also | 参阅**: For more on crafting effective prompts, check out [Prompt Engineering Best Practices](../04_Prompt_Engineering/02_Prompt_Engineering_Best_Practices.md).
+> <br> **参阅**：关于如何编写高效提示词，请查看 [提示词工程最佳实践](../04_Prompt_Engineering/02_Prompt_Engineering_Best_Practices.md)。
+
 #### 3. Code Explanation | 代码解释
 ```
 Prompt: "Explain this code line by line, I'm a beginner"

@@ -13,10 +13,43 @@ Encouraging the model to "think out loud" before answering.
   <br> **零样本 CoT**：只需添加“让我们一步步思考。”
 - **Few-Shot CoT**: Provide examples of reasoning steps.
   <br> **少样本 CoT**：提供推理步骤的示例。
-  ```text
-  Q: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?
-  A: Roger started with 5 balls. 2 cans of 3 balls each is 6 balls. 5 + 6 = 11. The answer is 11.
-  ```
+
+### 💻 Code Example: Implementing CoT with Python | 代码示例：用 Python 实现 CoT
+
+```python
+import os
+from openai import OpenAI
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+def solve_math_problem(problem):
+    """
+    Solves a math problem using Chain of Thought prompting.
+    使用思维链提示解决数学问题。
+    """
+    prompt = f"""
+    Q: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?
+    A: Roger started with 5 balls. 2 cans of 3 balls each is 6 balls. 5 + 6 = 11. The answer is 11.
+
+    Q: {problem}
+    A: Let's think step by step.
+    """
+    
+    response = client.chat.completions.create(
+        model="gpt-4",
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant that solves math problems step by step."},
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0
+    )
+    
+    return response.choices[0].message.content
+
+# Example usage | 使用示例
+problem = "The cafeteria had 23 apples. If they used 20 to make lunch and bought 6 more, how many apples do they have?"
+print(solve_math_problem(problem))
+```
 
 ## 2. Tree of Thoughts (ToT) | 思维树
 

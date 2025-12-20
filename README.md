@@ -68,8 +68,15 @@ The content is organized following First Principles and Logical Layering, guidin
 - Video Generation (视频生成)
 - Embodied AI (具身智能)
 
-### [09. Best Resources | 最佳资源库](./99_Best_Resources/)
+### [09. Best Resources | 最佳资源库](./09_Best_Resources/)
 - Top 10 Hardcore AI GitHub Repositories (10 个最硬核 AI GitHub 资源库)
+
+### [10. AI Applications Learning | AI 应用学习](./10_AI_Applications_Learning/)
+- Domain Expert Prompts (领域专家提示词)
+- AI Coding Mastery (AI 编程专家之路)
+- AI for Technical Research (AI 做技术研究)
+- AI Children's Education (AI 儿童教育)
+- AI-Native Learner (AI 原生学习者)
 
 ## 🔊 Accessibility & Deployment | 无障碍与部署
 
