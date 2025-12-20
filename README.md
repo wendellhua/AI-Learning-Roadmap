@@ -4,6 +4,16 @@ Welcome to the AI Learning Roadmap. This repository contains a curated collectio
 
 欢迎来到 AI 学习路线图。本仓库包含一系列精选的 AI 学习资料，经过脱敏、重组并结合行业标准资源进行了增强，旨在帮助初学者系统地理解和掌握人工智能技术。
 
+---
+
+🌐 **Online Reading | 在线阅读**: [https://wendellhua.github.io/AI-Learning-Roadmap/](https://wendellhua.github.io/AI-Learning-Roadmap/)
+
+🔊 **Bilingual Voice Reading | 中英文语音阅读**: This project supports text-to-speech in both English and Chinese. Click the "Listen 🔊" button on any page to hear the content read aloud!
+
+本项目支持中英文双语语音朗读功能。点击页面上的 "Listen 🔊" 按钮即可收听内容朗读！
+
+---
+
 ## 📚 Table of Contents | 目录结构
 
 The content is organized following First Principles and Logical Layering, guiding you from mathematical foundations to advanced agent development and future trends.
@@ -63,13 +73,15 @@ The content is organized following First Principles and Logical Layering, guidin
 
 ## 🔊 Accessibility & Deployment | 无障碍与部署
 
+🌐 **Live Site | 在线访问**: **[https://wendellhua.github.io/AI-Learning-Roadmap/](https://wendellhua.github.io/AI-Learning-Roadmap/)**
+
 This project is configured to be deployed as a static website with built-in **Text-to-Speech (TTS)** capabilities, making it accessible to visually impaired users.
 本项目已配置为可部署为静态网站，并内置**语音朗读 (TTS)** 功能，方便视障用户使用。
 
 ### Features (功能)
-- **Text-to-Speech**: Click the "Listen" button (🔊) on any page to hear the content read aloud.
-- **Multi-language Support**: Automatically detects and reads English and Chinese content.
-- **GitHub Pages Ready**: Includes automated workflow for deployment.
+- 🔊 **Bilingual Text-to-Speech | 中英文语音朗读**: Click the "Listen" button (🔊) on any page to hear the content read aloud. Supports both English and Chinese auto-detection!
+- 🌍 **Multi-language Support | 多语言支持**: Automatically detects and reads English and Chinese content with natural pronunciation.
+- 🚀 **GitHub Pages Ready | GitHub Pages 就绪**: Includes automated workflow for one-click deployment.
 
 ### How to Deploy (如何部署)
 1.  **Fork** this repository to your GitHub account.
