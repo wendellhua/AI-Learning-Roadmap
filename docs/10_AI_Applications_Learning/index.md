@@ -70,6 +70,16 @@ Transform your learning paradigm:
 - 📱 **Tool Ecosystem | 工具生态** - Build your AI productivity stack | 构建你的AI生产力栈
 - 🎯 **Career Strategy | 职业策略** - Stay competitive in the AI era | 在AI时代保持竞争力
 
+### 6️⃣ [Global App Deployment | APP出海部署](06_Global_App_Deployment.md)
+
+Deploy your AI apps globally with a cost-effective strategy:
+低成本、高稳定性的AI应用出海部署方案：
+
+- 🌍 **Domain Strategy | 域名策略** - Cost-effective selection (Tencent Cloud) | 高性价比选择（腾讯云）
+- 🛡️ **Security & Acceleration | 安全与加速** - Cloudflare setup guide | Cloudflare配置指南
+- ⚡ **DNS Optimization | DNS优化** - Step-by-step DNS migration | DNS迁移详解
+- 🔒 **SSL Configuration | SSL配置** - Secure your application | 保障应用安全
+
 ---
 
 ## 🎮 AI Application Map | AI应用领域地图
@@ -161,8 +171,9 @@ Monthly: Creative AI projects together
 - AI Technical Research | AI技术研究：2-3 hours | 小时
 - AI Children's Education | AI儿童教育：2-3 hours | 小时
 - AI-Native Learning | AI原生学习：2-3 hours | 小时
+- Global App Deployment | APP出海部署：0.5-1 hour | 小时
 
-**Total | 总计**：About 13-20 hours | 约 13-20 小时
+**Total | 总计**：About 13.5-21 hours | 约 13.5-21 小时
 
 ---
 
