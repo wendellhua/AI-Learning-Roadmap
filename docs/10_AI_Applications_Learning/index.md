@@ -80,6 +80,17 @@ Deploy your AI apps globally with a cost-effective strategy:
 - ⚡ **DNS Optimization | DNS优化** - Step-by-step DNS migration | DNS迁移详解
 - 🔒 **SSL Configuration | SSL配置** - Secure your application | 保障应用安全
 
+### 7️⃣ [Dify & Solopreneur | Dify与一人公司实战](07_Dify_Solopreneur_Guide.md)
+
+Build your automated one-person business with Dify:
+用Dify打造你的自动化一人公司：
+
+- 🏢 **One-Person Business | 一人公司** - Leverage code and media | 利用代码和媒体的杠杆
+- 🤖 **Dify Overview | Dify概览** - Visual workflow orchestration | 可视化工作流编排
+- 🧠 **Knowledge Base | 知识库** - Build your second brain | 打造你的第二大脑
+- ⚡ **Workflow Automation | 工作流自动化** - Automate content marketing | 自动化内容营销
+- 🚀 **Advanced Practice | 进阶实战** - Build a content multiplier | 打造内容倍增器
+
 ---
 
 ## 🎮 AI Application Map | AI应用领域地图
@@ -172,8 +183,9 @@ Monthly: Creative AI projects together
 - AI Children's Education | AI儿童教育：2-3 hours | 小时
 - AI-Native Learning | AI原生学习：2-3 hours | 小时
 - Global App Deployment | APP出海部署：0.5-1 hour | 小时
+- Dify & Solopreneur | Dify与一人公司实战：2-3 hours | 小时
 
-**Total | 总计**：About 13.5-21 hours | 约 13.5-21 小时
+**Total | 总计**：About 14.5-23 hours | 约 14.5-23 小时
 
 ---
 
