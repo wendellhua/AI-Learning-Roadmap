@@ -67,6 +67,8 @@ The content is organized following First Principles and Logical Layering, guidin
 - AI for Technical Research (AI 做技术研究)
 - AI Children's Education (AI 儿童教育)
 - AI-Native Learner (AI 原生学习者)
+- Global App Deployment (APP 出海部署)
+- Dify & Solopreneur (Dify 与一人公司实战)
 
 ## 🔊 Accessibility & Deployment | 无障碍与部署
 
