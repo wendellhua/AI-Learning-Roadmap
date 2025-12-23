@@ -85,18 +85,18 @@ nav:
     - Overview | 概览: 08_Future_Trends/index.md
     - Future Overview | 趋势概览: 08_Future_Trends/01_Future_Trends_Overview.md
     - Embodied AI | 具身智能: 08_Future_Trends/02_Embodied_AI_Deep_Dive.md
-  - 📚 Resources | 资源库:
-    - Overview | 概览: 09_Best_Resources/index.md
-    - Top GitHub Repos | GitHub精选: 09_Best_Resources/01_Top_GitHub_Repositories.md
   - 🎯 AI Applications | AI应用学习:
-    - Overview | 概览: 10_AI_Applications_Learning/index.md
-    - Domain Expert Prompts | 领域专家提示词: 10_AI_Applications_Learning/01_Domain_Expert_Prompts.md
-    - AI Coding Mastery | AI编程专家之路: 10_AI_Applications_Learning/02_AI_Coding_Mastery.md
-    - AI for Research | AI做技术研究: 10_AI_Applications_Learning/03_AI_Technical_Research.md
-    - AI Children Education | AI儿童教育: 10_AI_Applications_Learning/04_AI_Children_Education.md
-    - AI-Native Learner | AI原生学习者: 10_AI_Applications_Learning/05_AI_Native_Learner.md
-    - Global App Deployment | APP出海部署: 10_AI_Applications_Learning/06_Global_App_Deployment.md
-    - Dify & Solopreneur | Dify与一人公司实战: 10_AI_Applications_Learning/07_Dify_Solopreneur_Guide.md
+    - Overview | 概览: 09_AI_Applications_Learning/index.md
+    - Domain Expert Prompts | 领域专家提示词: 09_AI_Applications_Learning/01_Domain_Expert_Prompts.md
+    - AI Coding Mastery | AI编程专家之路: 09_AI_Applications_Learning/02_AI_Coding_Mastery.md
+    - AI for Research | AI做技术研究: 09_AI_Applications_Learning/03_AI_Technical_Research.md
+    - AI Children Education | AI儿童教育: 09_AI_Applications_Learning/04_AI_Children_Education.md
+    - AI-Native Learner | AI原生学习者: 09_AI_Applications_Learning/05_AI_Native_Learner.md
+    - Global App Deployment | APP出海部署: 09_AI_Applications_Learning/06_Global_App_Deployment.md
+    - Dify & Solopreneur | Dify与一人公司实战: 09_AI_Applications_Learning/07_Dify_Solopreneur_Guide.md
+  - 📚 Resources | 资源库:
+    - Overview | 概览: 10_Best_Resources/index.md
+    - Top GitHub Repos | GitHub精选: 10_Best_Resources/01_Top_GitHub_Repositories.md
 
 # Extensions
 markdown_extensions:

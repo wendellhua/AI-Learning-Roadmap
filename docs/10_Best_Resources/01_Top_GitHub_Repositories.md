@@ -62,3 +62,35 @@
 **Practical Guide | 实战指南**
 - **Why**: O'Reilly book companion. Focuses on practical fine-tuning and deployment strategies.
 - **Best For**: Engineers who want to get their hands dirty.
+
+## 5. Trending & Tools (2024-2025) | 热门工具与趋势
+
+### [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
+**Autonomous AI Agent | 自主 AI 智能体**
+- **Why**: One of the fastest-growing open-source projects. It attempts to achieve goals by chaining LLM thoughts.
+- **Best For**: Experimenting with autonomous agents.
+
+### [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
+**Building LLM Apps | 构建 LLM 应用**
+- **Why**: The de facto standard framework for building applications with LLMs.
+- **Best For**: Application developers.
+
+### [langgenius/dify](https://github.com/langgenius/dify)
+**LLM App Development Platform | LLM 应用开发平台**
+- **Why**: An open-source LLM app development platform. Its intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more.
+- **Best For**: Building production-ready AI applications quickly.
+
+### [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+**AI Art Generation | AI 艺术生成**
+- **Why**: The most popular UI for Stable Diffusion. Supports thousands of plugins and extensions.
+- **Best For**: AI artists and creative professionals.
+
+### [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
+**Modular Stable Diffusion | 模块化 Stable Diffusion**
+- **Why**: A powerful and modular stable diffusion GUI with a graph/nodes interface.
+- **Best For**: Advanced users who want granular control over image generation workflows.
+
+### [ollama/ollama](https://github.com/ollama/ollama)
+**Get Up and Running with Llama | 快速运行 Llama**
+- **Why**: The easiest way to get up and running with large language models locally.
+- **Best For**: Local deployment and testing.
