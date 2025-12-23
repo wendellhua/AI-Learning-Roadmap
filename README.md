@@ -21,15 +21,15 @@ The content is organized following First Principles and Logical Layering, guidin
 **New Feature**: Each section now includes a **"Practice Mission" (练习任务)** to help you apply what you learn!
 **新特性**：每个章节现在都包含一个**“练习任务”**，帮助你学以致用！
 
-### [00. Prerequisites | 预备知识](./00_Prerequisites/)
+### [00. Prerequisites | 预备知识](./docs/00_Prerequisites/)
 - Mathematics for AI (AI 数学基础：线性代数、微积分、概率论)
 - Machine Learning & Deep Learning Fundamentals (机器学习与深度学习基础)
 
-### [01. AI Foundations & Hardware | AI 基础与硬件](./01_AI_Foundations_and_Hardware/)
+### [01. AI Foundations & Hardware | AI 基础与硬件](./docs/01_AI_Foundations_and_Hardware/)
 - Global AI Hardware Landscape (全球 AI 硬件格局)
 - Hardware Selection Guide for Local Deployment (本地部署硬件选型指南)
 
-### [02. LLM Core Concepts | 大模型核心概念](./02_LLM_Core_Concepts/)
+### [02. LLM Core Concepts | 大模型核心概念](./docs/02_LLM_Core_Concepts/)
 - Transformer Architecture Deep Dive (Transformer 架构详解)
 - Emergent Abilities: Where Does Intelligence Come From? (涌现能力：智能从何而来？)
 - How Machines Learn: The Science of Optimization (机器如何学习：优化的科学)
@@ -37,38 +37,38 @@ The content is organized following First Principles and Logical Layering, guidin
 - Deep Dive: DeepSeek, GPT, Claude, Gemini (四大模型深度解析)
 - Model Selection Strategy (模型选型策略)
 
-### [03. Local Deployment & Quantization | 本地部署与量化](./03_Local_Deployment_and_Quantization/)
+### [03. Local Deployment & Quantization | 本地部署与量化](./docs/03_Local_Deployment_and_Quantization/)
 - Ollama & GPU Acceleration Practice (Ollama GPU 加速实战)
 - Model Quantization Guide (模型量化原理与实操)
 - Local Model Evaluation Scheme (本地模型测评方案)
 
-### [04. Prompt Engineering | 提示词工程](./04_Prompt_Engineering/)
+### [04. Prompt Engineering | 提示词工程](./docs/04_Prompt_Engineering/)
 - System Prompts Analysis (系统提示词解密：Cursor/v0)
 - Prompt Engineering Best Practices (提示词工程最佳实践)
 - Advanced Prompting Techniques (进阶提示词技巧：CoT, ToT, ReAct)
 - AI for Technical Research (利用 AI 进行技术研究)
 
-### [05. RAG & Fine-tuning | RAG 与微调](./05_RAG_and_Fine_tuning/)
+### [05. RAG & Fine-tuning | RAG 与微调](./docs/05_RAG_and_Fine_tuning/)
 - RAG Fundamentals (RAG 基础)
 - Advanced RAG Techniques (高级 RAG 技术：GraphRAG, Re-ranking)
 - Fine-tuning Guide (微调指南：LoRA, QLoRA, RLHF)
 
-### [06. AI Agent Development | AI 智能体开发](./06_AI_Agent_Development/)
+### [06. AI Agent Development | AI 智能体开发](./docs/06_AI_Agent_Development/)
 - Agent Frameworks Comparison (主流 Agent 框架对比：LangChain, AutoGen, CrewAI)
 - AI-Native Workflow: The Future of Work (AI 原生工作流：工作的未来)
 - Web Automation Agent: ByteBot (Web 智能体实战)
 - Game AI Agent: G-Agent (游戏智能体框架)
 
-### [07. AI Ethics & Safety | AI 伦理与安全](./07_AI_Ethics_and_Safety/)
+### [07. AI Ethics & Safety | AI 伦理与安全](./docs/07_AI_Ethics_and_Safety/)
 - AI Safety & Alignment (AI 安全与对齐)
 - Prompt Injection & Defense (提示词注入与防御)
 
-### [08. Future Trends | 未来趋势](./08_Future_Trends/)
+### [08. Future Trends | 未来趋势](./docs/08_Future_Trends/)
 - Multimodal AI (多模态 AI)
 - Video Generation (视频生成)
 - Embodied AI (具身智能)
 
-### [09. AI Applications Learning | AI 应用学习](./09_AI_Applications_Learning/)
+### [09. AI Applications Learning | AI 应用学习](./docs/09_AI_Applications_Learning/)
 - Domain Expert Prompts (领域专家提示词)
 - AI Coding Mastery (AI 编程专家之路)
 - AI for Technical Research (AI 做技术研究)
@@ -77,7 +77,7 @@ The content is organized following First Principles and Logical Layering, guidin
 - Global App Deployment (APP 出海部署)
 - Dify & Solopreneur (Dify 与一人公司实战)
 
-### [10. Best Resources | 最佳资源库](./10_Best_Resources/)
+### [10. Best Resources | 最佳资源库](./docs/10_Best_Resources/)
 - Top 10 Hardcore AI GitHub Repositories (10 个最硬核 AI GitHub 资源库)
 
 ## 🔊 Accessibility & Deployment | 无障碍与部署
