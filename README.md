@@ -39,10 +39,11 @@ graph TD
 ---
 
 ## 🧪 Hardcore Lab | 实验室
-*Stop reading, start shipping.* Check out our [Hardcore Lab](https://wendellhua.github.io/AI-Learning-Roadmap/lab/) for:
+*Stop reading, start shipping.* Check out our [Hardcore Lab](./docs/lab/index.md) for:
 - One-click Model Quantization
 - RAG Pipeline Blueprints
 - Multi-Agent Orchestration Scripts
+
 
 ---
 

@@ -13,11 +13,16 @@
       "pattern": "^https://arxiv.org"
     },
     {
-      "pattern": "^https://twitter.com"
+      "pattern": "^https://twitter.com/.*"
     },
     {
-      "pattern": "^https://x.com"
+      "pattern": "^https://x.com/.*"
+    },
+    {
+      "pattern": "^https://wendellhua.github.io/AI-Learning-Roadmap/.*"
     }
+
+
   ],
   "timeout": "30s",
   "retryOn429": true,
