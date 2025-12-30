@@ -1,5 +1,5 @@
 site_name: AI Learning Roadmap | AI学习路线图
-site_description: A comprehensive guide to AI, from basics to agents. 从零基础到AI智能体的完整学习指南。
+site_description: The ultimate, first-principles guide to mastering AGI. 从第一性原理出发的 AGI 终极学习指南。
 site_author: AI Learning Community
 site_url: https://wendellhua.github.io/AI-Learning-Roadmap/
 repo_url: https://github.com/wendellhua/AI-Learning-Roadmap
@@ -15,29 +15,35 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.path
     - toc.follow
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.copy
+    - content.code.annotate
   palette:
+    - scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
     - scheme: default
-      primary: indigo
+      primary: white
       accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
+  favicon: assets/logo.png
+  logo: assets/logo.png
 
 # Navigation
 nav:
-  - 🏠 Home | 首页: index.md
+  - 🚀 Welcome | 欢迎: index.md
+  - 🏗️ Hardcore Lab | 实验室: lab/index.md
   - 📐 Prerequisites | 预备知识:
     - Overview | 概览: 00_Prerequisites/index.md
     - Mathematics for AI | AI数学基础: 00_Prerequisites/01_Mathematics_for_AI.md
@@ -94,9 +100,11 @@ nav:
     - AI-Native Learner | AI原生学习者: 09_AI_Applications_Learning/05_AI_Native_Learner.md
     - Global App Deployment | APP出海部署: 09_AI_Applications_Learning/06_Global_App_Deployment.md
     - Dify & Solopreneur | Dify与一人公司实战: 09_AI_Applications_Learning/07_Dify_Solopreneur_Guide.md
+
   - 📚 Resources | 资源库:
     - Overview | 概览: 10_Best_Resources/index.md
     - Top GitHub Repos | GitHub精选: 10_Best_Resources/01_Top_GitHub_Repositories.md
+
 
 # Extensions
 markdown_extensions:
@@ -109,10 +117,14 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - tables
   - attr_list
   - md_in_html
@@ -137,3 +149,8 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/wendellhua/AI-Learning-Roadmap
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/elonmusk
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/elonmusk
+

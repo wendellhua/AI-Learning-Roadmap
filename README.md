@@ -1,114 +1,67 @@
-# AI Learning Roadmap | AI 学习路线图
+# 🚀 AI Learning Roadmap: The Path to AGI
 
-Welcome to the AI Learning Roadmap. This repository contains a curated collection of AI learning materials, reorganized from a personal knowledge base and enhanced with industry-standard resources to help beginners systematically understand and master Artificial Intelligence technologies.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Stars](https://img.shields.io/github/stars/wendellhua/AI-Learning-Roadmap?style=social)](https://github.com/wendellhua/AI-Learning-Roadmap)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-欢迎来到 AI 学习路线图。本仓库包含一系列精选的 AI 学习资料，经过脱敏、重组并结合行业标准资源进行了增强，旨在帮助初学者系统地理解和掌握人工智能技术。
+> "First principles thinking is the only way to build the future. Stop copying, start building." — AI Learning Community
 
----
-
-🌐 **Online Reading | 在线阅读**: [https://wendellhua.github.io/AI-Learning-Roadmap/](https://wendellhua.github.io/AI-Learning-Roadmap/)
-
-🔊 **Bilingual Voice Reading | 中英文语音阅读**: This project supports text-to-speech in both English and Chinese. Click the "Listen 🔊" button on any page to hear the content read aloud!
-
-本项目支持中英文双语语音朗读功能。点击页面上的 "Listen 🔊" 按钮即可收听内容朗读！
+Welcome to the ultimate, hardcore roadmap for mastering Artificial Intelligence. This isn't just a collection of links; it's a mission-critical guide to understanding the physics of intelligence and building the future of AGI.
 
 ---
 
-## 📚 Table of Contents | 目录结构
+## 🌐 [Read the Full Guide Online](https://wendellhua.github.io/AI-Learning-Roadmap/)
 
-The content is organized following First Principles and Logical Layering, guiding you from mathematical foundations to advanced agent development and future trends.
+---
 
-**New Feature**: Each section now includes a **"Practice Mission" (练习任务)** to help you apply what you learn!
-**新特性**：每个章节现在都包含一个**“练习任务”**，帮助你学以致用！
+## 🛠️ The Mission Architecture | 任务架构
 
-### [00. Prerequisites | 预备知识](./docs/00_Prerequisites/)
-- Mathematics for AI (AI 数学基础：线性代数、微积分、概率论)
-- Machine Learning & Deep Learning Fundamentals (机器学习与深度学习基础)
+We don't do "shallow learning." We follow **First Principles**.
 
-### [01. AI Foundations & Hardware | AI 基础与硬件](./docs/01_AI_Foundations_and_Hardware/)
-- Global AI Hardware Landscape (全球 AI 硬件格局)
-- Hardware Selection Guide for Local Deployment (本地部署硬件选型指南)
-
-### [02. LLM Core Concepts | 大模型核心概念](./docs/02_LLM_Core_Concepts/)
-- Transformer Architecture Deep Dive (Transformer 架构详解)
-- Emergent Abilities: Where Does Intelligence Come From? (涌现能力：智能从何而来？)
-- How Machines Learn: The Science of Optimization (机器如何学习：优化的科学)
-- Mainstream Models Overview (主流大模型全景)
-- Deep Dive: DeepSeek, GPT, Claude, Gemini (四大模型深度解析)
-- Model Selection Strategy (模型选型策略)
-
-### [03. Local Deployment & Quantization | 本地部署与量化](./docs/03_Local_Deployment_and_Quantization/)
-- Ollama & GPU Acceleration Practice (Ollama GPU 加速实战)
-- Model Quantization Guide (模型量化原理与实操)
-- Local Model Evaluation Scheme (本地模型测评方案)
-
-### [04. Prompt Engineering | 提示词工程](./docs/04_Prompt_Engineering/)
-- System Prompts Analysis (系统提示词解密：Cursor/v0)
-- Prompt Engineering Best Practices (提示词工程最佳实践)
-- Advanced Prompting Techniques (进阶提示词技巧：CoT, ToT, ReAct)
-- AI for Technical Research (利用 AI 进行技术研究)
-
-### [05. RAG & Fine-tuning | RAG 与微调](./docs/05_RAG_and_Fine_tuning/)
-- RAG Fundamentals (RAG 基础)
-- Advanced RAG Techniques (高级 RAG 技术：GraphRAG, Re-ranking)
-- Fine-tuning Guide (微调指南：LoRA, QLoRA, RLHF)
-
-### [06. AI Agent Development | AI 智能体开发](./docs/06_AI_Agent_Development/)
-- Agent Frameworks Comparison (主流 Agent 框架对比：LangChain, AutoGen, CrewAI)
-- AI-Native Workflow: The Future of Work (AI 原生工作流：工作的未来)
-- Web Automation Agent: ByteBot (Web 智能体实战)
-- Game AI Agent: G-Agent (游戏智能体框架)
-
-### [07. AI Ethics & Safety | AI 伦理与安全](./docs/07_AI_Ethics_and_Safety/)
-- AI Safety & Alignment (AI 安全与对齐)
-- Prompt Injection & Defense (提示词注入与防御)
-
-### [08. Future Trends | 未来趋势](./docs/08_Future_Trends/)
-- Multimodal AI (多模态 AI)
-- Video Generation (视频生成)
-- Embodied AI (具身智能)
-
-### [09. AI Applications Learning | AI 应用学习](./docs/09_AI_Applications_Learning/)
-- Domain Expert Prompts (领域专家提示词)
-- AI Coding Mastery (AI 编程专家之路)
-- AI for Technical Research (AI 做技术研究)
-- AI Children's Education (AI 儿童教育)
-- AI-Native Learner (AI 原生学习者)
-- Global App Deployment (APP 出海部署)
-- Dify & Solopreneur (Dify 与一人公司实战)
-
-### [10. Best Resources | 最佳资源库](./docs/10_Best_Resources/)
-- Top 10 Hardcore AI GitHub Repositories (10 个最硬核 AI GitHub 资源库)
-
-## 🔊 Accessibility & Deployment | 无障碍与部署
-
-🌐 **Live Site | 在线访问**: **[https://wendellhua.github.io/AI-Learning-Roadmap/](https://wendellhua.github.io/AI-Learning-Roadmap/)**
-
-This project is configured to be deployed as a static website with built-in **Text-to-Speech (TTS)** capabilities, making it accessible to visually impaired users.
-本项目已配置为可部署为静态网站，并内置**语音朗读 (TTS)** 功能，方便视障用户使用。
-
-### Features (功能)
-- 🔊 **Bilingual Text-to-Speech | 中英文语音朗读**: Click the "Listen" button (🔊) on any page to hear the content read aloud. Supports both English and Chinese auto-detection!
-- 🌍 **Multi-language Support | 多语言支持**: Automatically detects and reads English and Chinese content with natural pronunciation.
-- 🚀 **GitHub Pages Ready | GitHub Pages 就绪**: Includes automated workflow for one-click deployment.
-
-### How to Deploy (如何部署)
-1.  **Fork** this repository to your GitHub account.
-2.  Enable **GitHub Pages** in your repository settings:
-    - Go to `Settings` -> `Pages`.
-    - Under `Build and deployment`, select `Source` as `GitHub Actions`.
-3.  Push any change to the `main` branch. The site will automatically build and deploy.
-
-### Local Preview (本地预览)
-To preview the site locally with TTS features:
-```bash
-pip install mkdocs-material
-mkdocs serve
+```mermaid
+graph TD
+    A[00. Physics of Math] --> B[01. Silicon & Hardware]
+    B --> C[02. The Transformer Core]
+    C --> D[03. Local Intelligence]
+    D --> E[04. Prompt Engineering]
+    E --> F[05. RAG & Fine-tuning]
+    F --> G[06. AI Agents & Autonomy]
+    G --> H[07. Safety & Alignment]
+    H --> I[🚀 AGI Ready]
 ```
-Then open `http://127.0.0.1:8000` in your browser.
 
-## ⚠️ Disclaimer | 免责声明
+### 🔭 Why This Roadmap?
+1. **Hardcore Foundation**: From Linear Algebra to CUDA.
+2. **AI-Native Workflow**: Use AI to learn AI. 
+3. **Global Deployment**: Real-world strategies for shipping globally.
+4. **Bilingual Support**: Built-in TTS for English and Chinese.
 
-This repository is a desensitized version of a personal knowledge base. All sensitive personal information, company-specific internal data, and internal links have been removed or modified to ensure privacy and security. The content is for educational purposes only.
+---
 
-本仓库是个人知识库的脱敏版本。所有敏感的个人信息、公司内部数据和内网链接均已被移除或修改，以确保隐私和安全。内容仅供教育和学习使用。
+## 🧪 Hardcore Lab | 实验室
+*Stop reading, start shipping.* Check out our [Hardcore Lab](https://wendellhua.github.io/AI-Learning-Roadmap/lab/) for:
+- One-click Model Quantization
+- RAG Pipeline Blueprints
+- Multi-Agent Orchestration Scripts
+
+---
+
+## 🔊 Accessibility
+Click the **"Listen 🔊"** button on any page to activate our custom-built TTS engine. Perfect for learning while commuting or for visually impaired engineers.
+
+---
+
+## 🛰️ How to Join the Mission
+1. **Star** this repo to stay updated.
+2. **Fork** to customize your learning path.
+3. **Contribute**: Found a better way to optimize a prompt or a model? Open a PR.
+
+---
+
+## ⚠️ Disclaimer
+This is a high-performance learning resource. It requires a "First Principles" mindset. If you are looking for shortcuts, this is not for you.
+
+---
+
+> 🚀 **"The future is built by those who understand how it works."**
+

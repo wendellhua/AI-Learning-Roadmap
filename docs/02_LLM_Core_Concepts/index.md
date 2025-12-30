@@ -111,8 +111,18 @@ Understanding the next generation of AI:
 
 **Total | 总计**：About 12-17 hours | 约 12-17 小时
 
+## ⚔️ Practice Mission: The First Principles Test | 练习任务：第一性原理挑战
+
+!!! danger "Mission Critical"
+    To pass this chapter, you must be able to explain the Transformer architecture to a 5-year-old and a PhD student.
+
+1. **The Analogy**: Create your own analogy for "Self-Attention" that doesn't use the word "attention."
+2. **The Sketch**: Draw the simplified flow of data through a Transformer block on a piece of paper.
+3. **The Debate**: Explain why increasing parameters doesn't always lead to better intelligence.
+
 ---
 
 > 💡 **Pro Tip | 小贴士**：This is the most core chapter! Once you understand these concepts, you'll truly grasp how AI "thinks."
+
 > 
 > 这是最核心的章节！理解了这些，你就能真正明白AI是如何"思考"的。
